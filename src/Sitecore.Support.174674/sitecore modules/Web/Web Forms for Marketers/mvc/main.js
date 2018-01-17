@@ -1,5 +1,5 @@
 ﻿(function ($) {
-    $.noConflict();
+    $.noConflict(true);
 
     $(document).ready(function () {
         $("form[data-wffm]").each(function () { $(this).wffmForm(); });
